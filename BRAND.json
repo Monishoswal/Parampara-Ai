@@ -1,0 +1,325 @@
+{
+  "profile": {
+    "brand_name": "PARAMPARA AI",
+    "industry": "Cultural Living Heritage & Direct Artisan Guild Marketplace",
+    "primary_purpose": "Archival documentation of India's living heritage, oral history preservation in native Indian dialects, 360° circular 3D museum exploration, and direct 0% commission craft acquisition.",
+    "main_cta": "Enter 3D Heritage Museum",
+    "copy_tone": [
+      "Authoritative and archival without dry academic detachment",
+      "Devotional respect toward generational mastercraftspersons and tribal lineages",
+      "Sentence case typography with zero hype words or exclamation marks",
+      "Radical economic transparency with zero platform commission highlighted"
+    ],
+    "brand_signature": "60-30-10 Architecture: 60% Charcoal architectural surfaces, 30% Snow White crisp typography, and 10% Sun Orange strictly reserved for interactive clickables, set in modern Outfit and Plus Jakarta Sans with a 24K golden Statue of Unity 3D museum centerpiece.",
+    "visual_language": "Charcoal, Snow White, and Sun Orange palette with high contrast, ultra-furnished modern typography, eliminating visual clutter and layout displacement.",
+    "strategy": "Bridge timeless Indian craft wisdom and multimodal AI authentication while eradicating middlemen commissions and fake industrial mass-replications.",
+    "style_classification": "Living Monumental Heritage / Modern High-Contrast Minimalist"
+  },
+  "layout": {
+    "grid_step": "4px base grid (4, 8, 12, 16, 24, 32, 48, 64, 96)",
+    "container_widths": {
+      "sm": "640px",
+      "md": "768px",
+      "lg": "1024px",
+      "xl": "1280px",
+      "max": "1280px (max-w-7xl)"
+    },
+    "spacing_scale": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "2xl": "48px",
+      "3xl": "64px",
+      "4xl": "96px"
+    },
+    "density": "Quiet and airy with generous negative space around high-resolution photographic masterworks.",
+    "section_rhythm": "Alternating subtle contrast between deep charcoal surfaces (#121214) and elevated architectural surfaces (#1A1A1E) separated by 1px hairline borders (#2C2C34)."
+  },
+  "colors": {
+    "baseline": [
+      {
+        "name": "Deep Matte Charcoal (60% Background)",
+        "hex": "#121214",
+        "role": "Global matte charcoal background and 3D museum rotunda ambient ground",
+        "shades": ["#0B0B0D", "#121214", "#18181C", "#1E1E24"],
+        "rules": {
+          "when_to_use": ["Primary dark page backdrop", "3D WebGL canvas container ground", "Video player container"]
+        }
+      },
+      {
+        "name": "Architectural Charcoal Surface (60% Elev)",
+        "hex": "#1A1A1E",
+        "role": "Card, panel, and drawer background in elevated surface mode",
+        "shades": ["#161619", "#1A1A1E", "#222228", "#2C2C34"],
+        "rules": {
+          "when_to_use": ["Interactive cards", "Modal bodies", "Header sticky bar"]
+        }
+      },
+      {
+        "name": "Sun Orange (10% Strictly for Clickables)",
+        "hex": "#FF6B00",
+        "role": "Primary interactive trigger, strictly reserved for clickable buttons, links, and active controls",
+        "shades": ["#CC5500", "#FF6B00", "#FF8A24", "#FFAC5E"],
+        "rules": {
+          "when_to_use": ["Clickable action buttons", "Active navigation links", "Acquisition CTA", "Launch sandbox buttons"]
+        }
+      },
+      {
+        "name": "Crisp Snow White (30% Headings)",
+        "hex": "#FFFFFF",
+        "role": "Primary typography text color for high contrast headings and critical titles",
+        "shades": ["#FFFFFF", "#F8F8FA", "#ECECF0"],
+        "rules": {
+          "when_to_use": ["Headlines", "Card titles", "Primary labels"]
+        }
+      },
+      {
+        "name": "Luminous Silver-White (30% Secondary Text)",
+        "hex": "#BEBEC8",
+        "role": "Secondary and descriptive body text, subtle labels, timestamps",
+        "shades": ["#A8A8B4", "#BEBEC8", "#D4D4DC"],
+        "rules": {
+          "when_to_use": ["Body copy", "Metadata descriptions", "Unselected filter chips"]
+        }
+      }
+    ],
+    "secondary": [
+      {
+        "name": "24K Temple Gold (Statue of Unity & GI Tags)",
+        "hex": "#D97706",
+        "role": "Central 3D Statue of Unity PBR material, GI badges, and commemorative brass plaque",
+        "shades": ["#B45309", "#D97706", "#F59E0B"],
+        "rules": {
+          "when_to_use": ["Statue of Unity PBR shader", "GI Registry numbers", "Heritage medallions"]
+        }
+      },
+      {
+        "name": "Consent Emerald",
+        "hex": "#22C55E",
+        "role": "0% platform commission callouts, verified consent indicators, ethical indicators",
+        "shades": ["#166534", "#15803D", "#22C55E"],
+        "rules": {
+          "when_to_use": ["Direct artisan livelihood tags", "Consent verified markers", "Provenance seals"]
+        }
+      },
+      {
+        "name": "Charcoal Hairline Border",
+        "hex": "#2C2C34",
+        "role": "1px crisp architectural partition lines across cards and headers",
+        "rules": {
+          "when_to_use": ["Card borders", "Dividers", "Input boundaries"]
+        }
+      }
+    ],
+    "insights": [
+      "Strict 60-30-10 color allocation: 60% Charcoal, 30% Snow White, 10% Sun Orange (clickables only)",
+      "Cool, furnished, contemporary typography utilizing Outfit for titles and Plus Jakarta Sans for body",
+      "Colors derived in perceptual OKLCH space to guarantee WCAG 2.1 AA 4.5:1 text contrast"
+    ],
+    "rules": {
+      "prohibitions": [
+        "Never use Sun Orange on non-clickable text, badges, or borders",
+        "Never use ungrounded AI glow halos or looping pulse animations",
+        "Never use vertical layout shifts on scroll that cause text clustering"
+      ]
+    }
+  },
+  "typography": {
+    "families": {
+      "editorial": "Outfit, Plus Jakarta Sans, system-ui, sans-serif",
+      "sans": "Plus Jakarta Sans, system-ui, -apple-system, sans-serif",
+      "mono": "JetBrains Mono, SF Mono, Menlo, Consolas, monospace"
+    },
+    "scale": {
+      "display": { "size": "3.5rem", "line_height": "1.12", "weight": "700", "family": "editorial" },
+      "h1": { "size": "2.5rem", "line_height": "1.2", "weight": "700", "family": "editorial" },
+      "h2": { "size": "2rem", "line_height": "1.25", "weight": "700", "family": "editorial" },
+      "h3": { "size": "1.5rem", "line_height": "1.3", "weight": "600", "family": "editorial" },
+      "h4": { "size": "1.125rem", "line_height": "1.4", "weight": "600", "family": "editorial" },
+      "body_lg": { "size": "1rem", "line_height": "1.6", "weight": "400", "family": "sans" },
+      "body": { "size": "0.875rem", "line_height": "1.5", "weight": "400", "family": "sans" },
+      "body_sm": { "size": "0.75rem", "line_height": "1.5", "weight": "400", "family": "sans" },
+      "meta": { "size": "0.75rem", "line_height": "1.4", "weight": "500", "family": "mono" },
+      "meta_sm": { "size": "0.6875rem", "line_height": "1.3", "weight": "500", "family": "mono" }
+    },
+    "hierarchy": {
+      "casing_rule": "Sentence case everywhere for labels, badges, and headers. Reserve all-caps strictly for genuine acronyms (GI, UPI, INR, SHA-256).",
+      "numbers_rule": "Tabular figures (tabular-nums font-mono) for currency amounts (₹), timestamps, chapter bookmarks, and coordinates."
+    }
+  },
+  "surfaces": {
+    "backgrounds": {
+      "canvas": "#160D09",
+      "surface": "#241510",
+      "paper": "#1E110C",
+      "scrim": "linear-gradient(to top, rgba(22, 13, 9, 0.95), rgba(22, 13, 9, 0.4), transparent)"
+    },
+    "borders": {
+      "hairline": "1px solid #3D2218",
+      "focus": "1px solid #9B182D",
+      "subtle": "1px solid rgba(255, 255, 255, 0.08)"
+    },
+    "materials": "Rich teakwood texture, matte paper grain, polished cold silver metal inlays."
+  },
+  "elevation": {
+    "shadow_card": "0 2px 8px rgba(0, 0, 0, 0.35)",
+    "shadow_modal": "0 20px 40px rgba(0, 0, 0, 0.65)",
+    "shadow_loupe": "0 0 30px rgba(0, 0, 0, 0.8), inset 0 0 20px rgba(214, 146, 59, 0.4)",
+    "overlay_scrim": "rgba(10, 5, 3, 0.85) with backdrop-blur-sm"
+  },
+  "interactions": {
+    "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "durations": {
+      "links_buttons": "150ms",
+      "drawers_modals": "250ms",
+      "reveals": "300ms"
+    },
+    "animations": [
+      {
+        "name": "3D Rotunda Camera Damping",
+        "description": "Smooth spherical camera orbit around the 12-pedestal circular gallery"
+      },
+      {
+        "name": "Rogan Canvas Silk Fold",
+        "description": "500ms symmetrical mirroring fold with realistic center crease"
+      },
+      {
+        "name": "Flickering Aarti Flame",
+        "description": "Subtle candle flicker without aggressive loop distortion"
+      }
+    ],
+    "reduced_motion": "Transitions simplify to immediate opacity shifts and 3D camera damping is constrained."
+  },
+  "actions": {
+    "button_list": [
+      {
+        "name": "Primary Terracotta Action",
+        "usage": "Primary user journey steps (Enter Museum, Acquire Artefact, Submit Record)",
+        "specs": {
+          "radius": "6px (rounded-md)",
+          "sizes": [
+            { "name": "Default", "font": "Inter", "size": "12px", "padding": "8px 16px" },
+            { "name": "Large", "font": "Inter", "size": "14px", "padding": "12px 24px" }
+          ]
+        },
+        "visuals": {
+          "default": { "background": "#9B182D", "text_color": "#FFFFFF" },
+          "hover": { "background": "#BA223B", "text_color": "#FFFFFF" },
+          "focus": { "outline": "2px solid #D97706" },
+          "active": { "background": "#781223", "text_color": "#FFFFFF" },
+          "disabled": { "background": "#4A2520", "text_color": "#8C6B5D" }
+        },
+        "notes": "Directly adapted from classical Indian museum curation interfaces."
+      },
+      {
+        "name": "Secondary Quiet Chrome Action",
+        "usage": "Secondary exploration and filtering (View Lore, Reset Filters, Dismiss)",
+        "specs": {
+          "radius": "6px (rounded-md)",
+          "sizes": [
+            { "name": "Default", "font": "Inter", "size": "12px", "padding": "8px 16px" }
+          ]
+        },
+        "visuals": {
+          "default": { "background": "#241510", "text_color": "#FDF8F2" },
+          "hover": { "background": "#2E1B14", "text_color": "#FFFFFF" },
+          "focus": { "outline": "1px solid #C4A898" },
+          "active": { "background": "#1E110C", "text_color": "#FDF8F2" },
+          "disabled": { "background": "#1E110C", "text_color": "#5A3C30" }
+        },
+        "notes": "Quiet surface boundary to avoid visual clutter."
+      }
+    ]
+  },
+  "navigation": {
+    "header_structure": {
+      "left": "Parampara Sanskrit Wordmark + Live Rotating Theme Selector",
+      "center": "Clean Anchor Links (Museum, Living Bazaar, Heritage Lens, Oral Stories)",
+      "right": "Patron Cart Trigger + Artisan Studio Link + Primary CTA"
+    },
+    "footer_structure": {
+      "brand_column": "PARAMPARA AI mission statement, 0% commission charter, Ministry citations",
+      "traditions_column": "GI certified links (Bidriware, Kalamkari, Rogan, Dhokra, Thanjavur)",
+      "resources_column": "3D Museum, Living Bazaar, Heritage Lens, Curator Queue",
+      "safeguards_column": "Archaeological Survey of India monographs and ethical consent charter"
+    }
+  },
+  "data_display": {
+    "badges": {
+      "gi_registry": "font-mono text-xs px-2 py-0.5 rounded-sm bg-[#241510] text-[#D97706] border border-[#D97706]/30",
+      "consent_verified": "font-mono text-xs px-2 py-0.5 rounded-sm bg-surface text-sage border border-sage/20",
+      "commission_zero": "font-mono text-xs text-sage font-medium"
+    },
+    "metric_cards": {
+      "structure": "Tabular typography with prominent mono numeral and descriptive sentence case label."
+    }
+  },
+  "structure": {
+    "max_width": "1280px (max-w-7xl)",
+    "nested_radii_rule": "R_outer = R_inner + padding. Dialogs use 8px (rounded-lg), inner cards use 6px (rounded-md), nested badges use 2-4px (rounded-sm)."
+  },
+  "icons": {
+    "icon_library": "lucide-react",
+    "stroke_width": "1.75px uniform",
+    "color_rules": "Icons inherit parent text color or use deliberate semantic accents (terracotta, gold, sage)."
+  },
+  "assets": {
+    "photographic_art_direction": "100% authentic documentary Indian photography capturing real mastercraftspersons in their workshops with natural daylight and native materials.",
+    "logos": [
+      {
+        "name": "PARAMPARA Sanskrit Wordmark",
+        "description": "Archival serif typography with subtle copper patina underline."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "name": "National Living Heritage Register Hero",
+      "layout": "12-column asymmetric split (7 cols text + metrics, 5 cols 3D specular tilt spotlight)",
+      "composition": "Left-aligned monumental serif headline with dual primary actions and 4 pan-India trust metrics."
+    },
+    {
+      "id": "alchemy",
+      "name": "Craft Alchemy Metamorphosis & 4X Loupe",
+      "layout": "Interactive side-by-side interactive split slider with 4-stage chemical timeline."
+    },
+    {
+      "id": "sandboxes",
+      "name": "Interactive Heritage Sandboxes",
+      "layout": "Dual column card grid (Kutch Rogan Silk Simulator + 60s Microscopic Quiz)."
+    },
+    {
+      "id": "masterclass",
+      "name": "Artisan Process Video Masterclass Reel",
+      "layout": "Full-width teakwood theater with timestamped chapter bookmarks."
+    },
+    {
+      "id": "zonal_clusters",
+      "name": "8 Geographical Indication Clusters Explorer",
+      "layout": "Responsive 4-column card grid with regional zonal filters."
+    },
+    {
+      "id": "living_bazaar",
+      "name": "Living Heritage Bazaar Spotlight",
+      "layout": "Direct master artisan marketplace catalog with 0% platform fee and verified INR pricing."
+    },
+    {
+      "id": "living_makers",
+      "name": "Master Artisans of India Gallery",
+      "layout": "Documentary portrait grid with verified consent charter."
+    },
+    {
+      "id": "heritage_lens",
+      "name": "Heritage Lens Multimodal AI Teaser",
+      "layout": "Asymmetric camera scanner showcase with real-time confidence readout."
+    },
+    {
+      "id": "archival_loop",
+      "name": "5-Stage Living Knowledge Lifecycle",
+      "layout": "5-column step progression cards (Capture, Review, Preserve, Discover, Connect)."
+    }
+  ]
+}

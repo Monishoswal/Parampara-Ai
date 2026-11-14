@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Option 01: Royal Obsidian & Temple Gold (60% Obsidian Canvas, 30% Silk Pearl, 10% Temple Gold) */
+  :root,
+  [data-theme="royal-obsidian"],
+  [data-theme="charcoal-snow-orange"],
+  [data-theme="ancient-brown-maroon"],
+  [data-theme="royal-dark"],
+  [data-theme="banarasi-crimson"],
+  [data-theme="peacock-sapphire"],
+  [data-theme="sandstone-light"] {
+    --paper-rgb: 8 8 10;              /* #08080A - 60% Deep Matte Obsidian Canvas (Zero AI Gray) */
+    --surface-rgb: 18 18 22;          /* #121216 - 60% Architectural Obsidian Surface */
+    --ink-rgb: 245 243 239;           /* #F5F3EF - 30% Silk Pearl Headings & Primary Content */
+    --muted-rgb: 161 158 149;         /* #A19E95 - 30% Luminous Silk Stone Secondary Text */
+    --border-rgb: 31 31 40;           /* #1F1F28 - Crisp Obsidian Hairline Border */
+    --terracotta-rgb: 255 122 0;      /* #FF7A00 - 10% Radiant Temple Gold (Strictly For Clickables & Glows) */
+    --terracotta-hover-rgb: 255 160 51;/* #FFA033 - Luminous Temple Gold Hover */
+    --terracotta-light-rgb: 38 20 6;  /* #261406 - Warm Amber Glow Background */
+    --sage-rgb: 34 197 94;            /* Emerald */
+    --sage-hover-rgb: 22 163 74;
+    --sage-light-rgb: 20 40 25;
+    --navy-rgb: 255 122 0;            /* Radiant Temple Gold */
+    --navy-hover-rgb: 255 160 51;
+    --navy-light-rgb: 38 20 6;
+    --amber-rgb: 255 122 0;           /* Radiant Temple Gold */
+    --amber-hover-rgb: 255 160 51;
+    --amber-light-rgb: 38 20 6;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #08080a;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: rgb(var(--paper-rgb));
+    color: rgb(var(--ink-rgb));
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.35s cubic-bezier(0.16, 1, 0.3, 1), color 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-editorial {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.01em;
+    line-height: 1.18;
+    font-weight: 600;
+  }
+
+  .font-cinzel {
+    font-family: 'Cinzel', Georgia, serif;
+    letter-spacing: 0.06em;
+  }
+
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #FFFFFF 0%, #F5F3EF 45%, #FFD699 75%, #FF7A00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-gold-shimmer {
+    background: linear-gradient(90deg, #F5F3EF 0%, #FFE5B4 50%, #F5F3EF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/* Custom smooth transition utilities per Taste-AI motion spec */
+.ease-smooth {
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.transition-smooth {
+  transition-property: color, background-color, border-color, opacity, transform;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  transition-duration: 250ms;
+}
+
+/* Custom modern scrollbar matching the active palette */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(var(--paper-rgb));
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--border-rgb));
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--terracotta-rgb));
+}
